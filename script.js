@@ -11,6 +11,6 @@ function mostraPalavrasChave (){
 }
 
 function processaTexto(texto){
-    let palavras = texto.split(/\s+/);
+    let palavras = texto.split(/[a-zA-Z]+/);
     return palavras;
 }
